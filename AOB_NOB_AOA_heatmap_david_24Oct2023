@@ -69,14 +69,7 @@ Error in heatmap3(data, scale = "none", Colv = NA, labCol = dates$V1[order(as.Da
 > install.packages("RColorBrewer")
 Error in install.packages : Updating loaded packages
 > install.packages("RColorBrewer")
-trying URL 'https://cran.rstudio.com/bin/macosx/big-sur-arm64/contrib/4.2/RColorBrewer_1.1-3.tgz'
-Content type 'application/x-gzip' length 52944 bytes (51 KB)
-==================================================
-downloaded 51 KB
 
-
-The downloaded binary packages are in
-	/var/folders/74/_5rk2ss97s7gx96wsm62w_d8wj8q28/T//RtmpgsHoSG/downloaded_packages
 > require("RColorBrewer")
 > heatmap3(a,scale='none',Colv=NA,cexCol=0.55,cexRow=0.55,col=yellow.red)
 Error in hclustfun(distMatrixR, method = method) : 
